@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
 
+    // instantiate the player
     Player player("L. Jenkins", 100);
     player.printPlayer();
 
