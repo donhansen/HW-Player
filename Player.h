@@ -12,8 +12,11 @@ class Player
     
     public:
     Player();
+    Player(string name, int hp);
     string getName() const;
+    void setName(string name);
     int getHp() const;
+    void setHp(int hp);
     void printPlayer() const;
 };
 #endif
