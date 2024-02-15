@@ -12,9 +12,6 @@ int main()
     player.setName("GailForceWinds");
     player.setHp(50);
 
-     printf("| %s hp: %d |\n", player.getName().c_str(), player.getHp());
-
-    cout << player.getName() << " " << player.getHp();
-
+    printf("| %s hp: %d |\n", player.getName().c_str(), player.getHp());
     return 0;
 }
