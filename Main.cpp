@@ -5,7 +5,6 @@ using namespace std;
 
 int main()
 {
-
     Player player("L. Jenkins", 100);
     player.printPlayer();
 
